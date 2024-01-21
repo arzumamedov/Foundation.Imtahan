@@ -1,0 +1,86 @@
+.basketSection {
+  width: 60%;
+  height: 90vh;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+
+  .card {
+    width: 270px;
+    height: 200px;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    i {
+      font-size: 72px;
+      color: #939393;
+    }
+
+    h3 {
+      font-family: Anton, sans-serif;
+      color: #fd5f00;
+      font-weight: 300;
+      font-size: 23px;
+    }
+
+    p {
+      color: #939393;
+      text-align: center;
+      font-family: Nunito, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    .buttons {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+
+      .remove {
+        width: 60px;
+        height: 30px;
+        outline: none;
+        border: none;
+        background-color: #fd5f00;
+        color: white;
+        border-radius: 10px;
+      }
+
+      .detail {
+        width: 60px;
+        height: 30px;
+        outline: none;
+        border: none;
+        background-color: #fd5f00;
+        color: white;
+        border-radius: 10px;
+      }
+
+      .fa-heart {
+        font-size: 15px;
+      }
+
+      .increase {
+        width: 30px;
+        height: 30px;
+        background-color: #fd5f00;
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+      }
+
+      .decrease {
+        width: 30px;
+        height: 30px;
+        background-color: #fd5f00;
+        color: white;
+        outline: none;
+        border: none;
+        border-radius: 5px;
+      }
+    }
+
+  }
+}
